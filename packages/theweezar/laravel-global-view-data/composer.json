@@ -1,0 +1,15 @@
+{
+    "name": "theweezar/laravel-global-view-data",
+    "autoload": {
+        "psr-4": {
+            "Theweezar\\LaravelGlobalViewData\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "\"Duc Hoang\"",
+            "email": "minhducducminh1999@gmail.com"
+        }
+    ],
+    "require": {}
+}
