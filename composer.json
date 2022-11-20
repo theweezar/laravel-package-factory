@@ -25,13 +25,13 @@
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/",
-            "Theweezar\\LaravelGlobalViewData\\": "packages/theweezar/laravel-global-view-data/src/"
+            "Laracraft\\ViewData\\": "packages/laracraft/view-data/src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/",
-            "Theweezar\\LaravelGlobalViewData\\": "packages/theweezar/laravel-global-view-data/src/"
+            "Laracraft\\ViewData\\": "packages/laracraft/view-data/src/"
         }
     },
     "scripts": {

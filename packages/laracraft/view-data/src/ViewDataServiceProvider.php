@@ -1,9 +1,9 @@
 <?php
-namespace Theweezar\LaravelGlobalViewData;
+namespace Laracraft\ViewData;
 
 use Illuminate\Support\ServiceProvider;
 
-class GlobalViewDataServiceProvider extends ServiceProvider {
+class ViewDataServiceProvider extends ServiceProvider {
     public function boot()
     {
 

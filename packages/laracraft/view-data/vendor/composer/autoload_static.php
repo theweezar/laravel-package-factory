@@ -4,17 +4,17 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitbbe21182975563c0198101cff2041cd8
+class ComposerStaticInit56cb03523c29fbdc18e6f4b1acbd47c1
 {
     public static $prefixLengthsPsr4 = array (
-        'T' => 
+        'L' => 
         array (
-            'Theweezar\\LaravelGlobalViewData\\' => 32,
+            'Laracraft\\ViewData\\' => 19,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Theweezar\\LaravelGlobalViewData\\' => 
+        'Laracraft\\ViewData\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -27,9 +27,9 @@ class ComposerStaticInitbbe21182975563c0198101cff2041cd8
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitbbe21182975563c0198101cff2041cd8::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitbbe21182975563c0198101cff2041cd8::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitbbe21182975563c0198101cff2041cd8::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit56cb03523c29fbdc18e6f4b1acbd47c1::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit56cb03523c29fbdc18e6f4b1acbd47c1::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit56cb03523c29fbdc18e6f4b1acbd47c1::$classMap;
 
         }, null, ClassLoader::class);
     }

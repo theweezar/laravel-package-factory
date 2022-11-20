@@ -1,13 +1,13 @@
 {
-    "name": "theweezar/laravel-global-view-data",
+    "name": "laracraft/view-data",
     "autoload": {
         "psr-4": {
-            "Theweezar\\LaravelGlobalViewData\\": "src/"
+            "Laracraft\\ViewData\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "\"Duc Hoang\"",
+            "name": "DucHoang",
             "email": "minhducducminh1999@gmail.com"
         }
     ],

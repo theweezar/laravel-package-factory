@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Theweezar\\LaravelGlobalViewData\\' => array($baseDir . '/src'),
+    'Laracraft\\ViewData\\' => array($baseDir . '/src'),
 );
